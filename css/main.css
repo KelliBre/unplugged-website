@@ -248,7 +248,7 @@ aside{
   align-items: center;
   flex-flow: row wrap; 
   background: green;
-
+  margin: 50px 0 0 0;
 }
 .faq h2{
   margin-bottom:40px;
@@ -535,89 +535,46 @@ footer .contact {
     margin: 100px 0;
   }
   
-  /* Header */
+  /*================HOMEPAGE: HERO AREA================*/
   
-  header {
-  justify-content:space-around ;
-  padding: 33px 0;
-  }
-  
-  header .content-wrapper {
-    width:100%;
-    justify-content:space-between;
-  }
-  
-  header nav {
-    width: 15%;
-  }
-  
-  header nav ul {
-    justify-content: space-between;
-  
-  }
-  
-  .header-divider {
-    display: none;
-  }
-  
-  /* Hero Area */
-  
-  /* Aside */
-  aside .content-wrapper {
-    margin: 50px 0;
-    display: flex;
-    justify-self: space-around;
-    flex-flow: row wrap;
-  }
-  
-  aside .content-wrapper .form-description,
-  aside .content-wrapper .form {        
-    width: 33%;         
-    margin: 0;
-  }
-  
-  /* Features */
-  
-  .features article {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: column wrap;
+  .hero-area h1 {
+    width: 70%;
+}
+
+/*================= HOMEPAGE: ASIDE================== */
+aside .content-wrapper {
+    justify-content:space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+    width:33%;
+}
+
+/*================= HOMEPAGE: FEATURES ================== */
+.features h2 {
+    width: 90%;
+}
+
+.features article {
     flex-basis: 33%;
-  
-  }
-  
-  .features .features-item-description {
-    width: 50%;
-  }
-  
-  /* Reviews */
-  .reviews article {
-  display: flex;
-  justify-content: space-between;
-  }
-  
-  .reviews article div {
-    width:43%;         
-  }
-  
-  /* Footer */
-  
-  footer .content-wrapper {
-    width: 87%;
-    margin: 100px 0;
-  }
-  
-  .footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  }
-  
-  footer .contact {
-    margin-bottom: 0;
-  }
-  
+}
+
+/*================= HOMEPAGE: REVIEWS================== */
+.reviews article div {
+    width: 43%;
+}
+
+/*================= ABOUT PAGE ================== */
+.mission h2,
+.contact-section .content-wrapper h2 {
+    width: 96%;
+}
+
+/*================= FAQ PAGE================== */
+.faq h2 {
+    width: 100%;
+}
   
 }
 
