@@ -87,14 +87,68 @@ textarea {
    Author's custom styles
    ========================================================================== */
   
-   /*------------HEADER FOOTER ---------*/
+   /*-----------------------GLOBAL STYLES------------------------*/
    
+   html{
+     font-size: 16px;
+   }
+   
+   body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: left;
+
+   }
+
+   ul, ol {
+    list-style-type: none;
+   }
+
+   a{
+     color: #e2e3ed;
+     font-size: 1.125em;
+     text-decoration:none;
+
+   }
+
+   h2{
+    font-size: 1.875em;
+    font-family: 'Poppins', sans-serif;
+   }
+
+   h3,
+   h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125em;
+   }
+
+   p{
+    color: #e2e3ed;
+    font-size:.875em;
+
+   }
+
+   img{
+
+   }
+
+   figure{
+
+   }
+
+   address{
+    font-style: italic  ;
+    font-size: .875em;
+   }
+
    .content-wrapper {
     width: 90%;
     margin: 50px 0;
   }
+
+   /*------------HEADER: MOBILE STYLES---------*/
    
-   
+ 
    header,
 footer{
   display: flex;
@@ -102,6 +156,7 @@ footer{
   align-items: center;
   flex-flow: row wrap;
   background:#202322;
+
 }
 header{
   padding: 15px 0;
@@ -121,15 +176,16 @@ header nav{
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  background: blue;
+  background: #202322;
   width: 60%;
 }
 
 header nav ul{
   display: flex;
-  justify-self: space-around;
+  justify-content: space-around;
   width:100%;
 }
+
 
 .header-divider{
   width:100%;
@@ -142,7 +198,7 @@ header nav ul{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: green;
+  background:url(../img/jake-melara-30679-unsplash.jpg);
 }
 
 /*=====ASIDE======*/
