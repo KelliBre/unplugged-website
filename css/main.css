@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
   
-   /*-----------------------GLOBAL STYLES------------------------*/
+   /*-----------------------GENERAL STYLES------------------------*/
    
    html{
      font-size: 16px;
@@ -106,27 +106,43 @@ textarea {
 
    a{
      color: #e2e3ed;
-     font-size: 1.125em;
      text-decoration:none;
 
    }
 
+   h1{
+     color: #fff;
+     font-family: 'Poppins', sans-serif;
+     font-size: 2.25em;
+     font-weight: 500;
+   }
+
    h2{
-    font-size: 1.875em;
+    color: #fff;
     font-family: 'Poppins', sans-serif;
+    font-size: 1.875em;
+    font-weight: 500;
+   }
+
+   h3{
+     font-size: 1.125em;
+   }
+
+   h4{
+     font-size: 1.125em;
    }
 
    h3,
    h4{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.125em;
+    margin: 20px 0;
    }
 
    p{
     color: #e2e3ed;
     font-size:.875em;
-
-   }
+    line-height: 1.125em;
+    }
 
    img{
 
@@ -137,9 +153,15 @@ textarea {
    }
 
    address{
-    font-style: italic  ;
     font-size: .875em;
+    font-style: italic;
    }
+
+   address h4{
+     font-style: normal;
+     
+   }
+
 
    .content-wrapper {
     width: 90%;
@@ -221,8 +243,7 @@ aside{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: yellow;
-  color: #202322;
+  background:url(../img/rawpixel-800820-unsplash1.jpg)
 }
 
 .features article{
@@ -246,6 +267,10 @@ aside{
   flex-flow: row wrap;
 }
 
+.features-item-description{
+  text-align: center;
+}
+
 
 
 /*------------HOME PAGE REVIEWS---------*/
@@ -256,6 +281,7 @@ aside{
 }
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1em;
 }
 
 .reviews h3 {
@@ -263,13 +289,14 @@ aside{
   margin: 20px 0;
 }
 
+
 /*-------ABOUT PAGE---------*/
 .mission{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background: blue;
+  background:#527158;
   padding: 0 15px;
 }
 
@@ -278,14 +305,14 @@ aside{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background: tomato;
+  background:#2a423a;
   
 }
-
 
 .contact-content p{
   margin: 0;
 }
+
 
 /*---------FAQ PAGE---------*/
 
@@ -294,7 +321,7 @@ aside{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background: blue;
+  background:#527158;
 
 }
 
@@ -303,7 +330,7 @@ aside{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap; 
-  background: green;
+  background:#527158;
   margin: 50px 0 0 0;
 }
 .faq h2{
@@ -317,6 +344,7 @@ aside{
 /*----------FOOTER------------*/
 footer{
   flex-direction: column;
+  text-align: center;
 }
 
 footer p{
@@ -326,13 +354,13 @@ footer p{
 footer .content-wrapper{
   width: 55%;
   margin: 50px 0;
+
 }
 
  footer .contact{
   margin-bottom: 50px;
 
 }
-
 
 footer .social-icons{
   display: flex;
@@ -348,11 +376,38 @@ footer .social-icons p{
 
 footer .copyright{
   margin: 20px 0;
-  display: flex;
-
 
 }
 
+/*---------FORM STYLE-------------*/
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 20px 0;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 
 
