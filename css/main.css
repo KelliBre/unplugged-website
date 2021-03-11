@@ -145,7 +145,7 @@ textarea {
     }
 
    img{
-
+    width: 100%;
    }
 
    figure{
@@ -221,6 +221,9 @@ header nav ul{
   justify-content: center;
   flex-flow: row wrap;
   background:url(../img/jake-melara-30679-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*=====ASIDE======*/
@@ -243,7 +246,11 @@ aside{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background:url(../img/rawpixel-800820-unsplash1.jpg)
+  background:url(../img/rawpixel-800820-unsplash1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 .features article{
