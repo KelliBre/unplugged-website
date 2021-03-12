@@ -672,6 +672,9 @@ justify-content: space-between;
   width: 45%;
 }
 
+.map figure{
+  padding-bottom: 44%;
+}
 /*==========ABOUT PAGE: CONTACT SECTION=========*/
 
 .contact-section .content-wrapper h2{
@@ -760,7 +763,9 @@ aside .content-wrapper .form {
 .contact-section .content-wrapper h2 {
     width: 96%;
 }
-
+ .map figure{
+   padding-bottom: 37%;
+ }
 /*================= FAQ PAGE================== */
 .faq h2 {
     width: 100%;
