@@ -124,6 +124,7 @@ textarea {
    h4{
     font-family: 'Poppins', sans-serif;
     font-size: 1.125em;
+    font-weight: 200;
     margin: 20px 0;
    }
 
@@ -355,6 +356,21 @@ input[type=button] {
   margin: 0;
 }
 
+.map figure {
+  width: 100%;
+  height: 0; 
+  padding-bottom: 125%; 
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+}
 
 /*---------FAQ PAGE---------*/
 
@@ -693,6 +709,9 @@ footer .contact {
 
 @media only screen and (min-width: 1200px){
   /*Desktop styles here*/
+  h3{
+    font-size: 1.875em;
+  }
   /*================= HEADER===================*/
 
   .content-wrapper {
