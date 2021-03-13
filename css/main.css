@@ -446,7 +446,6 @@ footer .social-icons p{
   background: #527158;
   width: 40px;
   height:40px;
-  margin: 0 20px; 
 }
 footer .social-icons p i{
   font-size: 1.3125em;
@@ -724,6 +723,9 @@ footer .contact {
   margin-bottom: 0;
 }
 
+footer .social-icons p{
+  margin: 0 20px;
+}
 
 }
   
